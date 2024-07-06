@@ -1,5 +1,5 @@
-export const LargeBookListItem = ({ books }) => {
-  const { name, price, title, pages } = books;
+export const LargeBookListItem = ({ book }) => {
+  const { name, price, title, pages } = book;
   return (
     <>
       <h2>{name}</h2>
